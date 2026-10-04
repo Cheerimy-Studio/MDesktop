@@ -1,0 +1,25 @@
+1 ICON "app.ico"
+
+1 VERSIONINFO
+FILEVERSION 1,0,0,1
+PRODUCTVERSION 1,0,0,1
+FILEOS 0x40004
+FILETYPE 0x1
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904B0"
+    BEGIN
+      VALUE "FileDescription", "Virtual desktops with task view for Windows 7"
+      VALUE "FileVersion", "V1.0-Alpha-0.0.1"
+      VALUE "InternalName", "MDesktop"
+      VALUE "OriginalFilename", "MDesktop.exe"
+      VALUE "ProductName", "MDesktop"
+      VALUE "ProductVersion", "V1.0-Alpha-0.0.1"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x409, 1200
+  END
+END
